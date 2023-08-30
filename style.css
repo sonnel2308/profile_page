@@ -1,0 +1,218 @@
+@font-face {
+    font-family: rodin;
+    src: url("FOT-Rodin\ Pro\ M.otf");
+}
+
+@font-face {
+    font-family: consolas;
+    src: url("CONSOLA.TTF");
+}
+
+@font-face {
+    font-family: wavefont;
+    src: url("Wavefont-VariableFont_ROND\,YELA\,wght.ttf");
+}
+
+@keyframes nav-hover {
+    0% {margin-bottom: 0px;}
+    20% {margin-bottom: -2px;}
+    40% {margin-bottom: -4px;}
+    60% {margin-bottom: -6px;}
+    80% {margin-bottom: -8px;}
+    100% {margin-bottom: -10px;}
+}
+
+
+hr {
+    border: 2px solid rgb(180, 175, 154);
+    margin: 10px;
+    border-radius: 3px;
+}
+
+body {
+    font-family: rodin;
+    margin: 2% 5%;
+    background-color: rgb(205, 200, 176);
+    background-image: url("images/nier-interface.png");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: rgb(78, 75, 66);
+    text-shadow: 5px 5px rgb(163, 160, 146);
+}
+
+nav {
+    padding: 0px 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 75, 66);
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 10px auto;
+    background-color: rgb(180, 175, 154);
+    text-decoration: none;
+    color: rgb(78, 75, 66);
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+nav a:hover:not(.a_selected) {
+    transform: scale(1.1);
+}
+
+.a_selected {
+    margin-bottom: -10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.left-column {
+    text-align: left;
+}
+
+.right-column {
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: rgb(218, 212, 187);
+    color: rgb(78, 75, 66);
+    font-size: 18px;
+    text-align: left;
+    margin: 3% 0%;
+    height: 450px;
+    width: 200px;
+    flex-basis: calc(30%);
+    box-sizing: border-box;
+}
+
+.block h2 {
+    text-align: center;
+    background-color: rgb(78, 75, 66);
+    color: rgb(205, 200, 176);
+    margin: 0;
+    font-size: 30px;
+}
+
+.block p {
+    margin: 0px 10px;
+}
+
+.block::-webkit-scrollbar {
+    width: 4px;
+}
+
+.block::-webkit-scrollbar-thumb {
+    background-color: rgb(177, 172, 151);
+}
+
+.block::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(78, 75, 66);
+}
+
+.block-addition {
+    box-shadow: 5px 5px rgb(154, 151, 132);
+}
+
+.tenor-gif-embed {
+    margin: 0% 15%;
+    border: solid 4px rgb(78, 75, 66);
+    border-radius: 5px;
+}
+
+.image-container {
+    max-width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container p {
+    text-align: center;
+    margin: 4% 50px;
+}
+
+.image-container img {
+    height: auto;
+    width: calc(50% - 10px);
+    object-fit: cover;
+    border: solid 3px rgb(78, 75, 66);
+    border-radius: 2px;
+}
+
+.artist-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(78, 75, 66);
+    color: rgb(210, 204, 179);
+}
+
+.artist-container h2 {
+    margin: 2% 7%;
+    background-color: rgb(78, 75, 66);
+}
+
+.artist-container a {
+    color: rgb(210, 204, 179);
+    text-decoration: none;
+}
+
+.artist-container img {
+    margin: 5px 7%;
+    width: calc(50% - 10px);
+    object-fit: cover;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    border: solid 2px rgb(182, 177, 156);
+}
+
+.terminal {
+    overflow: auto;
+    background-image: url("images/yorha.gif");
+    background-size: 170%;
+    background-position: 50% 50%;
+    background-color: black;
+    color: rgb(199, 199, 199);
+}
+
+.terminal p {
+    margin: 10px;
+    font-family: consolas;
+    letter-spacing: .2rem;
+}
+
+.wave p {
+    font-family: wavefont;
+    font-size: 75px;
+    margin: 0px 20px;
+}
