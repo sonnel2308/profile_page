@@ -68,6 +68,31 @@ nav a:hover:not(.a_selected) {
     transform: scale(1.1);
 }
 
+footer {
+    background-color: rgb(78, 75, 66);
+    margin-right: 70%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer h2 {
+    margin-left: 25px;
+    margin-top: 5px;
+    color: rgb(205, 200, 176);
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+    position: relative;
+    left: -25px;
+    top: 5px;
+    border-radius: 15px;
+}
+
 .a_selected {
     margin-bottom: -10px;
 }
